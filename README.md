@@ -2,4 +2,4 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-Fullstack Webapp for data storage like Google Drive using NextJS, TailwindCSS, AppWrite
+Fullstack Webapp for data storage like Google Drive using NextJS,Typescript,TailwindCSS, AppWrite
