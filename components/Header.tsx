@@ -1,8 +1,8 @@
-import React from "react";
-import { Button } from "./ui/button";
+import { signOutUser } from "@/lib/actions/user.actions";
 import Image from "next/image";
-import Search from "./Search";
 import FileUploader from "./FileUploader";
+import Search from "./Search";
+import { Button } from "./ui/button";
 
 const Header = () => {
   return (
@@ -11,11 +11,11 @@ const Header = () => {
       <div className="header-wrapper">
         <FileUploader />
         <form
-        //   action={async () => {
-        //     "use server";
+          action={async () => {
+            "use server";
 
-        //     await signOutUser();
-        //   }}
+            await signOutUser();
+          }}
         >
           <Button type="submit" className="sign-out-button">
             <Image
